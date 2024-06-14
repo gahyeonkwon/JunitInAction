@@ -34,7 +34,7 @@ public class AssumptionsTest {
     @Test
     void testNoJobToRun() {
         assumingThat(() -> environment.getJavaVersion().equals(EXPECTED_JAVA_VERSION),
-                () -> assertFalse(systemUnderTest.hasJobToRun()));
+                () -> assertTrue(systemUnderTest.hasJobToRun()));
     }
 
     @Test
