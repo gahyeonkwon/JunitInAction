@@ -1,4 +1,4 @@
-package com.test.junit.ch08;
+package com.test.junit.ch08.sample1;
 
 import java.util.HashMap;
 import java.util.Map;

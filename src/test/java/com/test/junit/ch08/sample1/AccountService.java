@@ -1,4 +1,4 @@
-package com.test.junit.ch08;
+package com.test.junit.ch08.sample1;
 
 public class AccountService {
     private AccountManager accountManager;

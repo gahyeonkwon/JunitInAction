@@ -1,11 +1,10 @@
-package com.test.junit.ch08;
+package com.test.junit.ch08.sample1;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
-import java.lang.module.Configuration;
 
-public class DefaultAccountManager2 implements AccountManager{
+public class DefaultAccountManager2 implements AccountManager {
     private Log logger;
     private Configuration configuration;
 

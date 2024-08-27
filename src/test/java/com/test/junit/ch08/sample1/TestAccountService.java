@@ -1,6 +1,5 @@
-package com.test.junit.ch08;
+package com.test.junit.ch08.sample1;
 
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

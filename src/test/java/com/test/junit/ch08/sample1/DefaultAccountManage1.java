@@ -1,4 +1,4 @@
-package com.test.junit.ch08;
+package com.test.junit.ch08.sample1;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
@@ -6,7 +6,7 @@ import org.apache.commons.logging.LogFactory;
 import java.util.PropertyResourceBundle;
 import java.util.ResourceBundle;
 
-public class DefaultAccountManage1 implements AccountManager{
+public class DefaultAccountManage1 implements AccountManager {
 
     // 문제1) 로거 객체가 내부에서 선언 되어 있다
     private static final Log logger =
