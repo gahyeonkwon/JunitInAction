@@ -31,6 +31,12 @@ dependencies {
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 
+	// https://mvnrepository.com/artifact/org.easymock/easymock
+	testImplementation 'org.easymock:easymock:5.4.0'
+
+	// https://mvnrepository.com/artifact/org.jmock/jmock-junit5
+	testImplementation 'org.jmock:jmock-junit5:2.13.1'
+
 }
 
 tasks.named('test') {
