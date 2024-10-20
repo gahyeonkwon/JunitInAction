@@ -36,9 +36,13 @@ dependencies {
 
 	// https://mvnrepository.com/artifact/org.jmock/jmock-junit5
 	testImplementation 'org.jmock:jmock-junit5:2.13.1'
+	testImplementation 'com.h2database:h2:2.3.232'
+
+	implementation 'javax.servlet:javax.servlet-api:4.0.1'
 
 }
 
 tasks.named('test') {
 	useJUnitPlatform()
+	jvmArgs += ['-ea', '-Djunit.jupiter.conditions.deactivate=*']
 }
