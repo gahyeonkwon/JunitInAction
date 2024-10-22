@@ -42,6 +42,7 @@ public class DatabaseOperationsExtension implements BeforeAllCallback, AfterAllC
     @Override
     public void afterEach(ExtensionContext extensionContext) throws Exception {
         connection.releaseSavepoint(savepoint);
+        connection.rollback();
     }
 
 
